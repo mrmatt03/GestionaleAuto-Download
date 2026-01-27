@@ -22,6 +22,6 @@ Caratteristiche principali:
     📦 Zero Installazione: Grazie al pacchetto MSI, l'app è pronta all'uso con icona dedicata.
 
 ## 📥 Download
-Puoi scaricare l'ultima versione stabile direttamente dalla sezione **[Releases](https://github.com/TUO_UTENTE/GestionaleAuto-Download/releases)**. 
+Puoi scaricare l'ultima versione stabile direttamente dalla sezione **[Releases](https://github.com/mrmatt03/GestionaleAuto-Download/releases)**. 
 
 Scegli il file `.msi` per un'installazione rapida su Windows.
