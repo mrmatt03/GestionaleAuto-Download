@@ -5,14 +5,16 @@
 
 #  AutomatePro
 
-
+> ![Java](https://img.shields.io/badge/Java-17-orange?style=for-the-badge&logo=java)
+![Platform](https://img.shields.io/badge/Platform-Windows-blue?style=for-the-badge&logo=windows)
+![Version](https://img.shields.io/badge/Version-1.2.0--MSI-green?style=for-the-badge)
+> 
 ### The Next-Gen Dealership Management System
 > 
 
 >
 
-[![Get License](https://img.shields.io/badge/Get_License-Lemon_Squeezy-FFD35B?style=for-the-badge&logo=lemonsqueezy)](https://automatepro.lemonsqueezy.com/checkout/buy/22126732-0d80-4de1-a1f5-2b8576bf4cc5)
-[![Free Trial](https://img.shields.io/badge/Try_Free-14_Days-green?style=for-the-badge)](https://automatepro.lemonsqueezy.com/checkout/buy/22126732-0d80-4de1-a1f5-2b8576bf4cc5)
+
 
 
 
