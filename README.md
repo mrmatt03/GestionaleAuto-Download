@@ -1,6 +1,6 @@
 <p align="center">
- <img width="150" height="150" alt="logo_automate" src="https://github.com/user![Uploading Untitled.png…]()
--attachments/assets/a4da3c84-8b0e-43c6-9fce-a7ce91b51af9" />
+<img width="150" height="150" alt="Untitled" src="https://github.com/user-attachments/assets/0038b33f-9efb-4f0e-8ab9-f188bf78e559" />
+
 </p>
 
 #  AutomatePro
