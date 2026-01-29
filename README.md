@@ -1,102 +1,108 @@
 <p align="center">
-<img width="150" height="150" alt="Untitled" src="https://github.com/user-attachments/assets/0038b33f-9efb-4f0e-8ab9-f188bf78e559" />
+  <img src="https://github.com/user-attachments/assets/0038b33f-9efb-4f0e-8ab9-f188bf78e559" width="120" height="120" alt="AutomatePro Logo" />
+</p>
+
+<h1 align="center">AutomatePro</h1>
+
+<p align="center">
+  <strong>Gestionale Professionale per Concessionarie Auto</strong><br>
+  Sviluppato in JavaFX.
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Java-17-orange?style=for-the-badge&logo=java" alt="Java" />
+  <img src="https://img.shields.io/badge/Platform-Windows-blue?style=for-the-badge&logo=windows" alt="Platform" />
+  <img src="https://img.shields.io/badge/Version-1.2.0--MSI-green?style=for-the-badge" alt="Version" />
+</p>
+
+
+---
+
+##  Panoramica
+
+**AutomatePro** è una soluzione desktop stand-alone progettata per ottimizzare il flusso di lavoro delle concessionarie auto. L'applicativo elimina la necessità di fogli di calcolo disordinati, offrendo un database centralizzato (SQLite) per la gestione del parco veicoli, delle anagrafiche clienti e della documentazione contrattuale.
+
+L'interfaccia utente è costruita su **JavaFX** utilizzando il tema *Cupertino Dark*, garantendo un ambiente di lavoro coerente, moderno e a basso affaticamento visivo.
+
+---
+
+##  Funzionalità
+
+### Gestione Parco Auto
+* **Doppia Visualizzazione:** Vista tabellare per operazioni massive e vista a griglia (Card View) per la consultazione rapida.
+* **Stati Dinamici:** Tracking automatico dello stato del veicolo (*Disponibile, In Trattativa, Venduta*).
+* **Filtri Avanzati:** Ricerca in tempo reale per targa, modello o telaio.
+
+### Modulo Burocratico & PDF
+Generazione automatica della documentazione pre-compilata:
+* Contratti di Vendita e Ricevute di Caparra.
+* Moduli per Prova su Strada (Scarico Responsabilità).
+* **Registro Pubblica Sicurezza:** Export conforme per il registro di carico/scarico.
+
+### Analytics
+Dashboard integrata per il monitoraggio dei KPI aziendali:
+* Margini di profitto e fatturato.
+* Analisi dei trend di vendita e giacenze medie.
+
+---
+
+##  Interfaccia Utente
+
+### Dashboard
+Una panoramica immediata delle performance aziendali e delle scadenze imminenti.
+<p align="center">
+  <img width="1913" height="973" alt="Screenshot 2026-01-28 224727" src="https://github.com/user-attachments/assets/8c971f95-677b-49b9-b267-ea1616434058" />
+</p>
+
+
+### Parco Auto (Vista Griglia)
+Gestione visiva del magazzino con indicatori di stato e miniature.
+<p align="center">
+ <img width="1536" height="866" alt="Screenshot 2026-01-28 225124" src="https://github.com/user-attachments/assets/6e51540d-fa19-48e4-8847-c9fb94d8d95e" />
 
 </p>
 
-#  AutomatePro
+### Scheda Tecnica Dettagliata
+Visualizzazione completa dei dati veicolo, storico lavori e galleria fotografica.
+<p align="center">
+  <img width="1188" height="699" alt="Screenshot 2026-01-29 202511" src="https://github.com/user-attachments/assets/29882652-f058-43a0-b4ce-474a5965a3d2" />
 
-> ![Java](https://img.shields.io/badge/Java-17-orange?style=for-the-badge&logo=java)
-![Platform](https://img.shields.io/badge/Platform-Windows-blue?style=for-the-badge&logo=windows)
-![Version](https://img.shields.io/badge/Version-1.2.0--MSI-green?style=for-the-badge)
-> 
-### The Next-Gen Dealership Management System
-> 
-
->
-
-
-
-
-
-
-
-**AutomatePro** è la soluzione *all-in-one* definitiva per la gestione moderna delle concessionarie auto. Progettato con un'architettura leggera e un'interfaccia **Cupertino Dark** di ultima generazione, trasforma la complessità burocratica in un flusso di lavoro fluido, veloce e privo di errori.
-
-Abbandona i fogli di calcolo e i software obsoleti: passa alla gestione intelligente.
+</p>
 
 ---
 
-## ✨ Caratteristiche Principali
+## 🛠️ Specifiche Tecniche
 
-### 🖥️ User Experience & Design
-* **Interfaccia Cupertino Dark:** Un ambiente di lavoro riposante e professionale, con palette colori ispirata a macOS (Sfondi `#1c1c1e`, Accenti `#0A84FF`) per ridurre l'affaticamento visivo.
-* **Tipografia Moderna:** Utilizzo dei font **Orbitron** per l'identità visiva e **Inter** per la massima leggibilità dei dati.
-* **Dual View:** Gestione del parco auto sia tramite **Tabella dettagliata** che **Griglia visuale (Card View)** con indicatori di stato cromatici.
-
-### 💼 Gestione Operativa
-* **Dashboard Analytics 4.0:** Monitoraggio in tempo reale di fatturato, margini di profitto, auto in giacenza e trend di vendita tramite grafici interattivi (TilesFX).
-* **Ricerca Istantanea:** Motore di filtraggio in tempo reale per trovare veicoli per Targa, Modello o Telaio in millisecondi.
-* **Stati Veicolo Intelligenti:** Gestione automatica degli stati: *Disponibile* (Verde), *In Trattativa* (Arancio), *Venduta* (Rosso).
-
-### ⚖️ Compliance & Burocrazia
-* **Document Engine PDF:** Generazione automatica e istantanea di:
-    * Contratti di Vendita.
-    * Ricevute di Caparra Confirmatoria.
-    * Moduli per Prova su Strada (Scarico Responsabilità).
-    * Schede Tecniche Veicolo (Preventivi).
-    * **Registro di Pubblica Sicurezza (P.S.):** Export del registro carico/scarico conforme alle normative vigenti.
-* **Export Dati:** Esportazione massiva in `.CSV` di Vendite e Magazzino per l'integrazione con software contabili o Excel.
-
-### 🔒 Sicurezza & Affidabilità
-* **Database SQLite:** Nessuna configurazione server richiesta. I dati risiedono localmente sulla tua macchina, criptati e sicuri.
-* **Backup & Restore:** Strumento integrato per creare backup completi (Database + Immagini) e ripristinarli con un click.
+* **Linguaggio:** Java 17+
+* **Framework UI:** JavaFX + AtlantaFX (Cupertino Dark Theme)
+* **Database:** SQLite (Locale, criptato)
+* **Reporting:** Librerie iText/OpenPDF per la generazione documentale.
 
 ---
 
-## 🛠️ Stack Tecnologico
+##  Installazione
 
-AutomatePro è costruito con tecnologie robuste per garantire prestazioni native:
+L'applicazione è distribuita come pacchetto nativo `.msi` per Windows, non richiede configurazione di server esterni.
 
-* **Core:** Java 17+
-* **UI Framework:** JavaFX 20 + AtlantaFX (Theme Engine)
-* **Database:** SQLite (JDBC)
-* **Reporting:** OpenPDF / iText (PDF Generation)
-* **Charts:** TilesFX (Analytics)
+1. Scarica l'ultima versione dalla sezione **[Releases](https://github.com/mrmatt03/GestionaleAuto-Download/releases)**.
+2. Esegui l'installer e segui la procedura guidata.
+3. Al primo avvio, compila i dati aziendali nel pannello impostazioni.
 
 ---
 
-## 🚀 Installazione
+##  Licenza
 
-AutomatePro è progettato con la filosofia **Zero-Config**.
+AutomatePro è un software commerciale. È disponibile una versione di prova completa.
 
-1.  Scarica l'ultima release dalla sezione **[Releases](https://github.com/mrmatt03/GestionaleAuto-Download/releases)**.
-2.  Esegui il file `.msi` (Windows) o `.dmg` (macOS).
-3.  Al primo avvio, inserisci i dati della tua azienda nel wizard di configurazione.
-4.  Sei pronto a vendere!
+* **Trial:** 14 giorni di prova gratuita con tutte le funzionalità attive (Watermark sui PDF).
+* **Licenza Pro:** Rimuove i limiti e include aggiornamenti a vita.
 
----
+Gestione pagamenti e licenze sicura tramite **Lemon Squeezy**.
 
-## 💎 Licenza e Prezzi
-
-AutomatePro è un software professionale protetto da licenza. È possibile scaricare la versione demo per testare tutte le funzionalità gratuitamente per **14 giorni**.
-
-| Piano | Caratteristiche |
-| :--- | :--- |
-| **Demo** | 14 Giorni, Funzionalità complete, Watermark sui PDF |
-| **Pro (Annuale)** | Aggiornamenti prioritari, Supporto Tecnico, Nessun limite di auto, Backup Cloud |
-
-### 🔒 Pagamento Sicuro
-La gestione delle licenze e dei pagamenti è affidata a **Lemon Squeezy**, Merchant of Record globale, garantendo la massima sicurezza delle transazioni e la corretta gestione fiscale.
-
-[👉 Acquista la tua licenza ora](https://automatepro.lemonsqueezy.com/checkout/buy/22126732-0d80-4de1-a1f5-2b8576bf4cc5)
+[👉 **Acquista Licenza**](https://automatepro.lemonsqueezy.com/checkout/buy/22126732-0d80-4de1-a1f5-2b8576bf4cc5)
 
 ---
 
-## 📞 Supporto
-
-Hai bisogno di aiuto o vuoi richiedere una funzionalità personalizzata?
-Apri una *Issue* su GitHub o scrivici a: `support@automatepro.it`
-
----
-*Developed with ❤️ in Italy.*
-
+<p align="center">
+  <sub>Developed in Italy. Per supporto tecnico: support@automatepro.it</sub>
+</p>
