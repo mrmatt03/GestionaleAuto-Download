@@ -51,7 +51,8 @@ Dashboard integrata per il monitoraggio dei KPI aziendali:
 ### Dashboard
 Una panoramica immediata delle performance aziendali e delle scadenze imminenti.
 <p align="center">
-  <img width="1913" height="973" alt="Screenshot 2026-01-28 224727" src="https://github.com/user-attachments/assets/8c971f95-677b-49b9-b267-ea1616434058" />
+ <img width="1195" height="706" alt="Screenshot 2026-01-30 150539" src="https://github.com/user-attachments/assets/5ee727c9-8727-4cc6-b33c-9185494b69a3" />
+
 </p>
 
 
